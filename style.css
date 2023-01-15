@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(86, 129, 192);
+}
+header{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+    flex-wrap: wrap;
+
+}
+#foto{
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 13px 18px 8px rgb(0, 0, 0);
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+    flex-wrap: wrap;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 13px 18px 8px rgb(10, 12, 12);
+    font-family: 'Orbitron', sans-serif;
+    background: rgb(160, 119, 199);
+    color: rgb(255, 246, 232);
+    cursor: pointer;
+    transition: all 0.5;
+}
+
+button:hover{
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+input flutuacao{
+    animation: flutuacao 5s ease-in-out infinite;
+}
+
+@keyframes flutuacao{
+    0%, 100%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform: translateY(-40px);
+    }
+}
+#imgs{
+    width: 35px;
+}
