@@ -25,5 +25,5 @@ git clone https://github.com/renanfranca27/site-bio.git
     
 ## Aprendizados
 
-alinha as div com flex box
+alinha as div com flex box <br>
 melhorar as cores do site com algos toms bem sutil 
